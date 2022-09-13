@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    background-color: pink;
+}
+
+.title h1{
+    font-size: 70px;
+}
+
+button {
+    margin-bottom: 50px;
+    padding: 0 30px 0 30px;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+.range-value{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0;
+}
+
+.slidecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.settings{
+    display: flex;
+    gap: 10px;
+}
+
+.settings #color{
+    align-self: center;
+}
